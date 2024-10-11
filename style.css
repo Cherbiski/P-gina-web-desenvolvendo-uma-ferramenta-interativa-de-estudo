@@ -60,7 +60,6 @@ container {
  height: 100%;
 }
 .cartao {
-    /*margin: 1rem 1rem;*/
     background-color: aqua;
     height: 20rem;
     flex-grow: 1;
@@ -82,6 +81,18 @@ container {
 
 .cartao__conteudo {
     text-align: center;
-    /*background-color: aquamarine;*/
     height: 100%;
 }
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
