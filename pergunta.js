@@ -44,3 +44,7 @@ criaCartao(
     'Como se diz OI em inglês?',
     'Oi em ingles é HI (RAI)'
 ) 
+let respostaEstaVisivel = false
+function viraCartao() {
+    respostaEstaVisivel = !respostaEstaVisivel
+}
